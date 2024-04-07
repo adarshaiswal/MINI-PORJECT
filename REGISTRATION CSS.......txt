@@ -1,0 +1,81 @@
+REGISTRATION CSS......
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3; /* Light gray background */
+}
+
+.container {
+    background-color: #fff; /* White container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Limiting container width */
+    width: 100%; /* Ensuring container takes full width on smaller screens */
+}
+
+.gif_container {
+    text-align: center;
+}
+
+.gif_container img {
+    width: 200px;
+    height: auto;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.user-details {
+    margin-top: 20px;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box .details {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-box button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-box button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.input-box a {
+    text-decoration: none;
+    color: #fff;
+}
